@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5681d28d-2043-4acc-890c-e34ee1c7e81c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/docker/redis/redis.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/src/api/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/src/api/handlers/health.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/src/api/routers/health.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../shop/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop/.idea/GOHCache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop/.idea/GOHCache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop/.idea/JetClient/state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop/.idea/JetClient/state.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop/src/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../shop/src/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop/src/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../shop/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
@@ -47,39 +61,51 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Docker.docker: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build learn-gin/.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ali&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "Docker.docker: Compose Deployment.executor": "Run",
+    "Go Build.go build github.com/Alifarid0011/shop/src/cmd.executor": "Run",
+    "Go Build.go build learn-gin/.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "<unknown>",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/home/ali",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../shop" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/cmd" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker: Compose Deployment">
+  <component name="RunManager" selected="Go Build.go build github.com/Alifarid0011/shop/src/cmd">
+    <configuration name="go build github.com/Alifarid0011/shop/src/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn-gin" />
+      <working_directory value="$PROJECT_DIR$/../shop" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Alifarid0011/shop/src/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/../shop/src/cmd/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build learn-gin/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="learn-gin" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,7 +118,7 @@
       <deployment type="docker-compose.yml">
         <settings>
           <option name="envFilePath" value="" />
-          <option name="sourceFilePath" value="src/docker/docker-compose.yml" />
+          <option name="sourceFilePath" value="../لهد/src/docker/docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -100,9 +126,11 @@
     <list>
       <item itemvalue="Docker.docker: Compose Deployment" />
       <item itemvalue="Go Build.go build learn-gin/" />
+      <item itemvalue="Go Build.go build github.com/Alifarid0011/shop/src/cmd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/Alifarid0011/shop/src/cmd" />
         <item itemvalue="Docker.docker: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -123,5 +151,16 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../shop/src/cmd/main.go</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
