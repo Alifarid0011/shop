@@ -21,6 +21,7 @@ type Config struct {
 }
 
 type ServerConfig struct {
+	Host         string
 	InternalPort string
 	ExternalPort string
 	RunMode      string

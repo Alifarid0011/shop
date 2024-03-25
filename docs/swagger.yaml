@@ -1,0 +1,102 @@
+definitions:
+  handlers.TestBodyFetch:
+    properties:
+      address:
+        type: string
+      age:
+        type: integer
+      gender:
+        type: string
+      name:
+        type: string
+    type: object
+  helper.BaseHttpResponse:
+    properties:
+      error: {}
+      result: {}
+      resultCode:
+        type: integer
+      success:
+        type: boolean
+    type: object
+info:
+  contact: {}
+paths:
+  /v1/test:
+    get:
+      consumes:
+      - application/json
+      description: just test
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: '#/definitions/helper.BaseHttpResponse'
+      summary: testing swagger
+      tags:
+      - test
+  /v1/test/body:
+    post:
+      consumes:
+      - application/json
+      description: just test
+      parameters:
+      - description: test body data
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/handlers.TestBodyFetch'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: '#/definitions/helper.BaseHttpResponse'
+        "400":
+          description: Failed
+          schema:
+            $ref: '#/definitions/helper.BaseHttpResponse'
+      summary: GetBody
+      tags:
+      - test
+  /v1/test/user/{id}:
+    post:
+      consumes:
+      - application/json
+      description: just test
+      parameters:
+      - description: user id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: test unrequited param
+        in: path
+        name: test
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: '#/definitions/helper.BaseHttpResponse'
+        "400":
+          description: Failed
+          schema:
+            $ref: '#/definitions/helper.BaseHttpResponse'
+      security:
+      - AuthBearer: []
+      summary: GetUser
+      tags:
+      - kir
+securityDefinitions:
+  AuthBearer:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
